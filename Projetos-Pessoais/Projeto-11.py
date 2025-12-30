@@ -2,19 +2,19 @@
 
 num1 = int(input('Digite o primeiro numero: '))
 num2 = int(input('Digite segundo numero: '))
-simbolo = input('Digite sinal: ')
+sinal = input('Digite sinal: ')
 
-if(simbolo == '*'):
+if(sinal == '*'):
  print(num1 * num2)
-elif(simbolo == '+'):
+elif(sinal == '+'):
  print(num1 + num2)
-elif(simbolo == '-'):
+elif(sinal == '-'):
     print(num1 - num2)
-elif(simbolo == '/'):
+elif(sinal == '/'):
     print(num1 / num2)
-elif(simbolo == '%'):
+elif(sinal == '%'):
     print(num1 % num2)
-elif(simbolo == '**'):
+elif(sinal == '**'):
     print(num1 ** num2)
 else:
     print('Por favor digite um simbolo valido!!')
