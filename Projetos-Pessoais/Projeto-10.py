@@ -1,3 +1,5 @@
+# Jogo de adivinhação !!
+
 import random
 
 novo_jogo = 's'
