@@ -9,3 +9,13 @@ print("O Numero 1 é maior do que o Numero 2 ? ", maior , "\n")
 resultado = numero_1 == numero_2
 print("Os Numeros são Iguais!!", resultado , "\n")
 
+
+
+
+
+
+
+
+
+
+
