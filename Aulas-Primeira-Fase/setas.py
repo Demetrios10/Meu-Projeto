@@ -21,4 +21,4 @@ print(astros_1 | astros_2) # une os dois conjuntos sem os valores repetidos
 print(astros_1.union(astros_2)) # une os dois conjuntos sem os valores repetidos
 
 print(astros_1 & astros_2)
-print(astros_1.intersection(astros_2))
+# print(astros_1.intersection(astros_2))
