@@ -8,7 +8,7 @@ import os
 from selenium.webdriver.chrome.service import Service
 
 # Define o nome da pasta
-pasta_evidencias = 'evidencias'
+pasta_evidencias = 'Evidencias'
 # Cria a pasta se ela não existir
 if not os.path.exists(pasta_evidencias):
     os.makedirs(pasta_evidencias)
