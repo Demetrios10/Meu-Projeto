@@ -24,6 +24,7 @@ time.sleep(1)
 senha.send_keys("secret_sauce" + Keys.INSERT)
 time.sleep(1)
 
+# clicando no botão login 
 botao_login = driver.find_element(By.ID,"login-button")
 botao_login.click()
 time.sleep(10)
