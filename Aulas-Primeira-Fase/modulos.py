@@ -1,4 +1,18 @@
-# dando apelido para uma função 
-import math as m
+# renomeia arquivos
+import os
 
-print(m.sqrt(144))
+os.chdir('')
+print(f'Diretório atual: {os.getcwd()}')
+
+padrao_nome = input('Qual o padrão de nomes de arquivos a usar (sem a extensão)? ')
+
+for contador, arq in enumerate(os.listdir()):
+    if os.path.isfile(arq):
+        nome_arq, exten_arq = os.path.splitext(arq)
+        nome_arq = padrao_nome + ' ' + str(contador)
+        
+        nome_novo = f'{nome_arq}{exten_arq}'
+        os.rename(arq,nome_novo)
+
+print(f'\n Arquivos renomeados. ')
+
