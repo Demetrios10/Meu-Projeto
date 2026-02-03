@@ -25,11 +25,6 @@ botao_login = driver.find_element(By.ID,"login-button")
 botao_login.click()
 time.sleep(10)
 
-# clicando botão filtrar
-filtrar = driver.find_element(By.CLASS_NAME,"//select[@class=product_sort_container]")
-filtrar.click()
-time.sleep(5)
-
 
 
 
