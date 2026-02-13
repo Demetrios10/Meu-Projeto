@@ -1,7 +1,7 @@
 # adivinhando as letras nas cores digitadas 
 
 cor = input('Digite uma cor: ')
-letra = input('Digite uma letra: ')
+letra = input('Digite uma letra que deseja encontrar: ')
 
 if letra in cor:
     print(f'{letra} esta em {cor}')
