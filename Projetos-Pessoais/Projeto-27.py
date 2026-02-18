@@ -1,4 +1,4 @@
-# Verificação de numero na lista de convidados 
+# Verificação de convidados
 
 while True:
   numero = input('Digite um numero: ')
