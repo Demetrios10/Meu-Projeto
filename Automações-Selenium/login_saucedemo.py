@@ -1,4 +1,4 @@
-# logando no site saucedemo
+# login no site saucedemo
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
