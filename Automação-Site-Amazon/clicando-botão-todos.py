@@ -10,4 +10,10 @@ driver = webdriver.Chrome()
 driver.get("https://www.amazon.com.br")
 time.sleep(5)
 
+# clicando no botão todos
+botao_todos = driver.find_element(By.ID,"nav-hamburger-menu")
+botao_todos.click()
+time.sleep(5)
+
+
 
