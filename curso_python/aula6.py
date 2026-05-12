@@ -11,4 +11,5 @@ print("D" + str("10")) # isso é possível , pois são duas strings
 
 print(int("1") , type("1"))
 print(float(1.7) , type(1.7))
-print(type(float("1.7")))
+print(type(float("1.7")+ 1))
+print(bool("deltas") , type("deltas"))
