@@ -5,24 +5,11 @@
 
 nome = "Demetrios"
 sobrenome = "Alves da Silva"
-altura = 1.8
+altura = 1.80000
 cidade = "São Paulo"
 rua = "Nora Ney"
 
-nome_completo = f"{nome} {sobrenome}"
+strings = 'nome: {} \nsobrenome: {} \naltura: {:.2f} \ncidade: {} \nrua: {} '.format(nome , sobrenome , altura , cidade , rua)
+print(strings)
 
-# Forma antiga (concatenação) — funciona, mas é verbosa e propensa a erro:
-# linha_antiga = "Olá, meu nome é " + nome + " e eu tenho " + str(altura) + " de altura"
 
-linha_saudacao = (
-    f"Olá, boa tarde. Meu nome é {nome} e eu tenho {altura:.2f} m de altura."
-)
-
-linha_completa = (
-    f"O nome completo é {nome_completo} e eu tenho {altura:.2f} m de altura."
-)
-
-if __name__ == "__main__":
-    print(linha_saudacao)
-    print(linha_completa)
-    print(f"Moro em {cidade} na rua {rua}")
